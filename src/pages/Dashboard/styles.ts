@@ -57,7 +57,9 @@ export const HeaderContainer = styled.div`
   justify-content: space-between;
   width: 100%;
   height: 100%;
+  ${media.lessThan("large")`
   margin-top: 300px;
+    `}
 
   h1 {
     font-size: 32px;
