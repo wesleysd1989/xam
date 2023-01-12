@@ -12,7 +12,7 @@ export const Container = styled.div`
   }
   thead {
     ${media.lessThan("large")`
-    th:nth-child(3), th:nth-child(4) {
+    th:nth-child(4), th:nth-child(5) {
       display: none;
     }
   `}
@@ -20,7 +20,7 @@ export const Container = styled.div`
 
   tbody {
     ${media.lessThan("large")`
-    td:nth-child(3), td:nth-child(4) {
+    td:nth-child(4), td:nth-child(5) {
       display: none;
     }
   `}
